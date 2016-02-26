@@ -9,6 +9,7 @@ header a {
   font-size: 3em;
   color: #301909;
   
+  
 }
 
 span {
@@ -24,8 +25,8 @@ body {
   width: 800px;
   height: auto;
   margin: auto;
-  
-  padding-top: 10% ;
+
+  padding-top: 5%;
 }
 
 .textandpic {

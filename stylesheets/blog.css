@@ -14,6 +14,7 @@
 
 .maintext {
   text-align: left;
+  padding-bottom: 1%;
   
 }
 
@@ -33,5 +34,8 @@
   font-weight: 900;
   font-size: 1.5em;
   line-height: .75;
-  ;
+}
+
+.maintext a {
+  color: #301909;
 }
