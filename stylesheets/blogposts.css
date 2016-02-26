@@ -1,0 +1,49 @@
+header  {
+  text-align: left;
+}
+header a {
+  font-size: 1.3em;
+  margin-left: 10%;
+  }
+
+header p {
+  font-family: roboto;
+  font-weight: 900;
+  font-size: 3em;
+  text-align: center;
+  margin-top: -4%;
+  position: relative;
+  z-index: 2;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+header img {
+  position: relative;
+  z-index: 1;
+}
+
+.maintext p {
+  font-weight: 400;
+  line-height: 1;
+  font-size: .95em;
+}
+
+.subtitle {
+  margin-left: 15%;
+  Font-family: roboto;
+  Font-weight: 900;
+  font-size: 2em;
+}
+
+hr {
+  color: black;
+}
+
+#subt {
+  margin-left: 15%;
+  font-family: maven pro;
+  font-weight: 900;
+  font-size: 1.9em;
+  line-height: .5;
+  margin-top: -4%;
+}
