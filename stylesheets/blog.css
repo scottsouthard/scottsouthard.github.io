@@ -1,0 +1,37 @@
+
+
+.mainpic {
+  position: ;
+  float: right;
+  margin-top: 3%;
+  
+}
+
+.textandpic {
+  display: table;
+  width: 750px;
+}
+
+.maintext {
+  text-align: left;
+  
+}
+
+.maintext a {
+ 
+}
+
+#blog {
+  
+}
+.maintext p {
+  color: #301909;
+  margin-top: -3%;
+  margin-left: 10%;
+  text-align: left;
+  font-family: roboto;
+  font-weight: 900;
+  font-size: 1.5em;
+  line-height: .75;
+  ;
+}
