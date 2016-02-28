@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+  <!DOCTYPE html>
+<html>
+  <head>
+    <title>Scott Southard</title>   
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blogposts.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,900|Maven+Pro:400,900' rel='stylesheet' type='text/css'>
+    
+  </head>
+  
+  <body>
+    
+    <header>
+      
+       <a href="http://scottsouthard.github.io/index.html"><span>S</span>COTT <span>S</span>OUTHARD</a>
+       <img src="../imgs/cattail-top.png">
+       <p>A Technical Blog, Technically</p>
+    </header>    
+   
+   <div class="textandpic">
+    
+    
+    <div id=subt>
+    <p>CSS Positioning</p>
+    </div>
+    <div class="maintext">
+    <p>
+      One of the more difficult CSS concepts to fully wrap your head around is positioning. Since we're not actively picking up pieces of text or images and moving them around, there are rules in the code that determine how each object acts on its own, in relation to the other objects, and in relation to the page. <br>
+      <br>The four main position properties are: <br><br>
+      <strong><ul>
+        <li>Static</li>
+        <li>Relative</li>
+        <li>Absolute</li>
+        <li>Fixed</li>
+      </ul></strong>
+      <br>
+      <strong>Static</strong> positioning is the most basic property, as an element that is static simply follows the general flow of the HTML document. It shows up where it naturally would. Static is the default setting for HTML elements, and cannot be altered by left, right, top, and bottom properties.<br>
+      <br>
+      <img src="../imgs/Static.png">
+      <br><br>
+      <strong>Relative</strong> positiong is slightly more complicated, but really, it's just the upgraded version of a static element. An element with a relative position can be moved, and the movements that are made are always <i>relative to the standard position.</i> <br>
+      <br>
+      <img src="../imgs/Relative.png">
+      <br><br>
+      <strong>Absolute</strong> positioning takes everything one step further down the rabbit hole and bases the position of the element off of it's closest parent. So rather than plopping it down naturally (like static) or relative to its natural place (like relative), absolute positioning is relative to another element. This way, you can group elements together, placement-wise, and always know that they'll be connected to each other. <br>
+      <br>
+      <img src="../imgs/Absolute.png">
+      <br><br>
+      <strong>Fixed</strong> positioning is it's own beast. While the rest of these properties are based on the HTML document or the elements within, fixed positioning is based solely on the viewport of the user (that means your screen). So when you scroll through a page or move left or right, a fixed element will remain planted firmly in place, not moving with the rest of the elements on the page. 
+      <br>
+      <img src="../imgs/Fixed.png">
+      <br>
+      <br>
+      The concepts of positioning seem obscure and obtuse at first, but like everything under the hood of the internet, there's a straightforward, easily understandable answer behind it all, you just have to take a moment to think it through. With all four of these concepts in the CSS repertoire, the possibilities for positioning are endless. 
+      (And holy cow, after this blog entry, I understand positioning way more than I did when I started!)
+    </p>
+   
+    </div>
+    
+    <div class="mainpic">
+      
+    </div>
+    
+    </div>
+    
+  </body>
+  
+  <footer>
+    
+    <div class="social">
+      <a href="https://github.com/scottsouthard"><img src="../imgs/github-icon.png"></a>
+      <a href="https://twitter.com/nonegenuine"><img src="../imgs/twitter-icon.png"></a>
+      <a href="https://www.linkedin.com/in/scott-southard-86588b48"><img src="../imgs/linkedin-icon.png"></a>
+      <a href="mailto:scottmsouthard@gmail.com"><img src="../imgs/email-xxl.png"></a>
+    </div>
+    <div class="footflourish">
+    <img src=../imgs/cattail.png>
+    </div>
+  </footer>
+</html>
