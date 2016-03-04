@@ -1,0 +1,71 @@
+  <!DOCTYPE html>
+<html>
+  <head>
+    <title>Scott Southard</title>   
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blogposts.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,900|Maven+Pro:400,900' rel='stylesheet' type='text/css'>
+    
+  </head>
+  
+  <body>
+    
+    <header>
+      
+       <a href="http://scottsouthard.github.io/index.html"><span>S</span>COTT <span>S</span>OUTHARD</a>
+       <img src="../imgs/cattail-top.png">
+       <p>A Technical Blog, Technically</p>
+    </header>    
+   
+   <div class="textandpic">
+    
+    
+    <div id=subt>
+    <p>Arrays and Hashes</p>
+    </div>
+    <div class="maintext">
+      <p>   When we begin to look at some of the collection groups in Ruby, the two heavy hitters look very much alike, yet very different in a few "key" (see what I did there?) regards. But before we start cross examining the two, let's take a look at each collection on it's own merit. <br>
+        <br>
+        <b>ARRAYS</b>
+        <br>
+        Arrays are an ordered collection of objects. Simple, right? Well, actually, yeah.  <br>
+        Here's an easy one: <br>
+        <pre>array = [1, 2, 3, 4] </pre> <br>
+        Each of our objects (1, 2, 3, and 4) are laid out in a specific order. Later, when we look to manipulate this array, we can access any of the four objects by calling it's position within the array.
+        <br>
+        <b>HASHES</b> <br>
+        Hashes are also collections of objects, but they're a little more complicated. Rather than having a built-in position system, like arrays, hashes let you assign your own key to each object. And that's exactly what it's called: a key! <br>Let's take a look at a simple hash:<br>
+        <pre>hash = {one: 1, two: 2, three: 3, four: 4}</pre><br>
+        As you can see, hashes are a little bit different, but realistically, a similar process is going on. Instead of having a default system of assigning a position to each object, hashes require you to name a key that's associated with each object (in which the object becomes the key's "value"). This allows for a bit more pointed and less arbitrary association between objects. <br>
+        <br>
+        In practice, both arrays and hashes can be used for a lot of the same things, but there are some instances where one performs far better than the other. If the data you're looking at is a simple list of singular objects, it's generally fine to use an array. It's a simpler class that requires a bit less fine tuning. However, if the objects in question are associated or tied to separate entities, a hash might be a better tool, in order to keep the objects and their associations in order (using keys and values!). 
+        
+        
+        
+        
+      </p>
+  
+    </div>
+    
+    <div class="mainpic">
+      <img src="imgs/placeholder.gif">
+    </div>
+    
+    </div>
+    
+  </body>
+  
+  <footer>
+    
+    <div class="social">
+      <a href="https://github.com/scottsouthard"><img src="../imgs/github-icon.png"></a>
+      <a href="https://twitter.com/nonegenuine"><img src="../imgs/twitter-icon.png"></a>
+      <a href="https://www.linkedin.com/in/scott-southard-86588b48"><img src="../imgs/linkedin-icon.png"></a>
+      <a href="mailto:scottmsouthard@gmail.com"><img src="../imgs/email-xxl.png"></a>
+    </div>
+    <div class="footflourish">
+    <img src=../imgs/cattail.png>
+    </div>
+  </footer>
+</html>

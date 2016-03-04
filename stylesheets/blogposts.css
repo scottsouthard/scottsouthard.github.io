@@ -49,3 +49,9 @@ hr {
   line-height: .5;
   margin-top: -4%;
 }
+
+pre {
+  background-color: #949494;
+  color: #303030;
+  text-align: center;
+}
