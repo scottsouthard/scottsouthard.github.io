@@ -1,0 +1,80 @@
+  <!DOCTYPE html>
+<html>
+  <head>
+    <title>Scott Southard</title>   
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blogposts.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,900|Maven+Pro:400,900' rel='stylesheet' type='text/css'>
+    
+  </head>
+  
+  <body>
+    
+    <header>
+      
+       <a href="http://scottsouthard.github.io/index.html"><span>S</span>COTT <span>S</span>OUTHARD</a>
+       <img src="../imgs/cattail-top.png" alt="topflourish">
+       <p>A Technical Blog, Technically</p>
+    </header>    
+   
+   <div class="textandpic">
+    
+    
+    <div id=subt>
+      <p>Enumerable Method "Map" (vs. "Each")</p>
+    </div>
+    <div class="maintext">
+      
+     <article>
+      The Enumerable module is a great example of Ruby's versatility and adaptability.  Any class of objects with the Enumerable module attached can perform any of the many tasks assigned to Enumerable.
+      he tasks span a wide array (heh) of iterators, each stemming from the seminal <code>each</code> iterator. <br>
+      <code>map</code> is a very close relative to <code>each</code>, in that it iterates through every element in a collection and then performs a task dictated in a block of code that follows. Whatever that code is isn't all that important,
+      but what they return from that code makes all the difference. <br>
+      <code>each</code> iterates through every element of a collection, performs a task, and returns the selected elements in their original form. The more transformative <code>map</code> similarly iterates through every element, performing the dictated action, but returns the modified elements. <br>
+      Let's look at the two as they work on an array: <br><br>
+      
+      <div class="bigblock">
+        <code> 
+        2.3.0 :003 > arr.each { |num| num + 1}<br>
+         => [1, 2, 3, 4, 5, 6] <br>
+        2.3.0 :004 > arr.map { |num| num + 1}<br>                                                                                                                                                                          
+         => [2, 3, 4, 5, 6, 7] <br>
+        </code>
+        <br>
+      You can see <code>each</code> iterates through the code and returns the originals while <code>map</code> returns the transformed results. While this instance seems like a silly test we'd never perform, let's try another:<br>
+      <code><br>
+        2.3.0 :010 > arr.each { |num| num.even? }<br>
+         => [1, 2, 3, 4, 5, 6] <br>
+        2.3.0 :011 > arr.map { |num| num.even? }       <br>                                                                                                                                                                          
+         => [false, true, false, true, false, true] <br> <br>
+      </code>
+      In this instance, we can see the useless return of <code>each</code>. It went through each element, determined if each was an even number or not, but then neglected to tell us!
+      Whereas <code>map</code> was far more helpful, iterating through every element and returning a boolean value of true or false, depending on the even-ness of each number.<br><br>
+      Both of these iterators have important uses. Sometimes you don't want to change the originals, just to look through them. Other times, we need to make big changes and see the results!
+      </div>
+    </article>
+  
+    </div>
+    
+    <div class="mainpic">
+      <img src="../imgs/placeholder.gif">
+    </div>
+    
+    </div>
+    
+  </body>
+  
+  <footer>
+    
+    <nav>
+      <a href="https://github.com/scottsouthard"><img src="../imgs/github-icon.png" alt="github"></a>
+      <a href="https://twitter.com/nonegenuine"><img src="../imgs/twitter-icon.png" alt="twitter"></a>
+      <a href="https://www.linkedin.com/in/scott-southard-86588b48"><img src="../imgs/linkedin-icon.png" alt="linkedin"></a>
+      <a href="mailto:scottmsouthard@gmail.com"><img src="../imgs/email-xxl.png" alt="email"></a>
+    </nav>
+    <div class="footflourish">
+      <img src=../imgs/cattail.png alt="footflourish">
+    </div>
+  </footer>
+</html>

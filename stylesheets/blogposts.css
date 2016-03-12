@@ -22,7 +22,7 @@ header img {
   z-index: 1;
 }
 
-.maintext p {
+article {
   font-weight: 400;
   line-height: 1;
   font-size: .95em;
@@ -53,5 +53,6 @@ hr {
 pre {
   background-color: #949494;
   color: #303030;
-  text-align: center;
+  display: inline;
+  line-height: 1;
 }
