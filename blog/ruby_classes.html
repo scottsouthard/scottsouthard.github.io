@@ -1,0 +1,64 @@
+  <!DOCTYPE html>
+<html>
+  <head>
+    <title>Scott Southard</title>   
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blogposts.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,900|Maven+Pro:400,900' rel='stylesheet' type='text/css'>
+    
+  </head>
+  
+  <body>
+    
+    <header>
+      
+       <a href="http://scottsouthard.github.io/index.html"><span>S</span>COTT <span>S</span>OUTHARD</a>
+       <img src="../imgs/cattail-top.png" alt="topflourish">
+       <p>A Technical Blog, Technically</p>
+    </header>    
+   
+   <div class="textandpic">
+    
+    
+    <div id=subt>
+      <p>Ruby Classes</p>
+    </div>
+    <div class="maintext">
+      <article>Every time Ruby is put in use, Ruby classes are also put in use. They're the building blocks of the language and they define every object (of the object oriented programming variety) we encounter.<br>
+      A class is a heirarchical tool, giving traits to every object created within the class. So every <code>integer</code> can be added or multiplied, while every <code>string</code> can be split apart.<br><br>
+      Let's take a look at a new class of our own to get a better idea of how this works:
+      <br><br>
+      <script src="https://gist.github.com/scottsouthard/806602cb5dbcd0c195bc.js"></script>
+      <br>
+      Here we have a new class called Jeans (and for the sake of brevity, we're assuming they're men's jeans). We've taken two main traits of any pair of jeans (the size of the waist and the length of the legs) and made them instance variables. <br><br>
+      Instance variables are the veins of any class, as their scope is larger than just one method. In fact, instance variables are able to remain constant throughout an object, available to the whims of any method called on them. <br><br>
+      <script src="https://gist.github.com/scottsouthard/73148d0f44e32d0fc5b5.js"></script>
+      <br><br>
+      Here we see that after calling <code>thanksgiving</code> on 511s (our original instance of jeans), we can alter the value of <code>@waist</code> even though we never defined it in our method. How cool is that? <br><br>
+      Classes control the basics of every object that comes into play in every instance of Ruby. Whether we see them or not, they're dictating the variables and abilities of all the tools we work with. Whether creating our own or using the built-in classes of Ruby, the heirarchy of classes passes down traits and we work with them one way or another.
+      </article>
+  
+    </div>
+    
+    <div class="mainpic">
+      <img src="../imgs/jeans.jpg">
+    </div>
+    
+    </div>
+    
+  </body>
+  
+  <footer>
+    
+       <nav>
+      <a href="https://github.com/scottsouthard"><img src="../imgs/github-icon.png" alt="github"></a>
+      <a href="https://twitter.com/nonegenuine"><img src="../imgs/twitter-icon.png" alt="twitter"></a>
+      <a href="https://www.linkedin.com/in/scott-southard-86588b48"><img src="../imgs/linkedin-icon.png" alt="linkedin"></a>
+      <a href="mailto:scottmsouthard@gmail.com"><img src="../imgs/email-xxl.png" alt="email"></a>
+    </nav>
+    <div class="footflourish">
+      <img src=../imgs/cattail.png alt="footflourish">
+    </div>
+  </footer>
+</html>
