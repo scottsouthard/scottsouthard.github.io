@@ -1,0 +1,31 @@
+.maintext img {
+  max-width: 150px;
+  display: inline;
+  position: relative;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  
+}
+
+.maintext {
+  width: 100%;
+  
+}
+
+.maintext p {
+  padding-top: 1%;
+  padding-bottom: 1%
+  margin-left: -8%;
+  text-align: center;
+  
+}
+
+.maintext a {
+  position: relative;
+}
+
+nav {
+  margin-left: -8%;
+  text-align: center;
+}
