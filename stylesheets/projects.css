@@ -1,3 +1,6 @@
+* {
+  background-color: #EFD5B9;
+}
 .maintext img {
   max-width: 22%;
   display: inline;
@@ -5,13 +8,18 @@
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 3%;
-  padding-bottom: 1%
+  padding-bottom: 1%;
+  
   
 }
 
 .maintext {
   width: 100%;
   
+}
+
+article a:hover {
+  color: #361C0A;
 }
 
 .maintext p {
@@ -25,7 +33,19 @@
   position: relative;
 }
 
+.maintext article {
+  float: left;
+}
+
 nav {
   margin-left: -3%;
   text-align: center;
+}
+
+aside {
+  font-size: .75em
+}
+
+aside a {
+  font-size: 1.4em;
 }
