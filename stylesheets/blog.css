@@ -1,7 +1,7 @@
 
 
 .mainpic {
-  position: ;
+  
   float: right;
   margin-top: 3%;
   
@@ -18,24 +18,24 @@
   
 }
 
-.maintext a {
+/*.maintext a {*/
  
-}
+/*}*/
 
-#blog {
+/*#blog {*/
   
-}
+/*}*/
 .maintext p {
-  color: #301909;
+  color: #170F05;
   margin-top: -3%;
   margin-left: 10%;
   text-align: left;
   font-family: roboto;
   font-weight: 900;
   font-size: 1.3em;
-  line-height: .95;
+  line-height: 1;
 }
 
 .maintext a {
-  color: #301909;
+  color: #361C0A;
 }

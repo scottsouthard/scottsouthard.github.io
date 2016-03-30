@@ -24,10 +24,13 @@ header img {
 
 article {
   font-weight: 400;
-  line-height: 1;
+  line-height: 1.;
   font-size: .95em;
-  color: #854518;
+  color: #170F05;
   margin-left: 0;
+}
+article a:hover {
+  color: #361C0A;
 }
 
 .subtitle {
@@ -52,7 +55,7 @@ hr {
 
 pre {
   background-color: #949494;
-  color: #303030;
+  color: #170F05;
   display: inline;
   line-height: 1;
 }

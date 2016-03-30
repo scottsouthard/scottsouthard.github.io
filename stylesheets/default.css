@@ -45,7 +45,7 @@ body {
   /*text-align: center;*/
   font-size: 1.3em;
   font-family: 'roboto';
-  color: #854518;
+  color: #170F05;
   margin-left: 5%;
 }
 
@@ -71,9 +71,9 @@ nav img {
 
 
 
-p a {
+article a {
   
-  color: #301909;
+  color: #361C0A;
 }
 
 nav a img {
@@ -101,7 +101,7 @@ header img {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-top: ;
+
   z-index: 1;
   opacity: 0.5;
   max-width: 100%;
