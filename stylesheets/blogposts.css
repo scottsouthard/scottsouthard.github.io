@@ -69,3 +69,8 @@ nav {
   width: 80%;
   float: none;
 }
+
+.mainpic {
+  display: block;
+  margin: 5%;
+}
