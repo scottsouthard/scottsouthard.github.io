@@ -66,11 +66,11 @@ nav {
 }
 
 .maintext {
-  width: 80%;
-  float: none;
+  width: 60%;
+  float: left;
 }
 
 .mainpic {
-  display: block;
-  margin: 5%;
+  display: inline;
+  margin-top: 25%;
 }
