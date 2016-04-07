@@ -63,7 +63,7 @@ nav {
 
 nav img {
   height: auto;
-  max-width: 40px;
+  width: 40px;
   margin-left: 3%;
   z-index: 2;
   position: relative;
@@ -76,10 +76,10 @@ article a {
   color: #361C0A;
 }
 
-nav a img {
-  max-width: 40px;
-  height: auto;
-}
+/*nav a img {*/
+/*  width: 40px;*/
+/*  height: auto;*/
+/*}*/
 
 
 .footflourish {
