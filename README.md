@@ -5,7 +5,7 @@ Constantly trying to improve myself as a developer and as a human being.
 
 This site is meant as a simple conduit for my efforts and projects. Nothing too fancy (mostly just a lovely Bootstrap theme with some tweaks), but much nicer looking than the previous iteration, I assure you.  
 
-Functional site can be found at [scottsouthard.me](scottsouthard.me)
+Functional site can be found at [scottsouthard.me](http://scottsouthard.me)
 
 ###Email
 Contact me at [scottmsouthard@gmail.com](mailto:scottmsouthard@gmail.com)  
